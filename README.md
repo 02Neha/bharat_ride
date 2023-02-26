@@ -17,7 +17,7 @@ Created a different login pages for student registeration and teacher registerat
 
 # output page for student's registeration
 
+![image](https://user-images.githubusercontent.com/95375309/221409675-e72d5ff0-642d-41f9-909d-53ee519c82a4.png)
 
-![Uploading image.png…]()
 
 # Thanku!!!
