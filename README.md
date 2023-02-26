@@ -1,5 +1,5 @@
 # bharat_ride
-# front view
+# Front View
 https://www.crunchbase.com/organization/graphic-era-university-dehradun
 
 
