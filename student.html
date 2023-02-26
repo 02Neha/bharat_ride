@@ -1,24 +1,52 @@
+
 <!DOCTYPE html>
 <html>
-    <style>
- img {text-align: center;}
-form {text-align: center;}
-H2{text-align:center;}
-    </style>
+<style>
+    form{text-align:center;}
+    h2 {text-align:center;}
+    h4{text-align:center;}
+</style>
 <body>
 
-<img src= "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/iwiymz4wog6wg6k44fo6"  width="300"  height="333" >
+<h2>WELCOME</h2>
+<H4>please enter the details</H4>
+
+<form action="/action_page.php" method="post">
+  
+
+  <div class="container">
+    <label for="uname"><b>STUDENT ID</b></label>
+    <input type="text" placeholder="Enter techer id" name="uname" required>
 <br>
 <br>
-<h2>LOGIN AS</h2>
-<form action="/action_page.php">
+<br>
     
-    <a href="student.html">STUDENT</a>
-    <BR>
-        <BR>
+        <label for="psw"><b>SEMESTER</b></label>
+        <select id="psw" >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+    <br>
+    <br>
+    <br>
+    <label for="psw"><b>SECTION</b></label>
+    <select id="psw" >
+        <option value="1">A</option>
+        <option value="2">B</option>
+        <option value="3">C</option>
+        <option value="4">D</option>
+      </select>
+    <br>
+    <br>
+    <br>
+    <button type="submit">REGISTER</button>
+    <br>
     
-            <a href="teacher.html">TEACHER</a>
-  </form>
+
+  
+</form>
+
 </body>
 </html>
-
